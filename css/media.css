@@ -1,0 +1,35 @@
+@media (max-width:1200px){
+    .header .content{
+        flex-direction: column-reverse;
+        padding-top: 0;
+        gap: 30px;
+    }
+    .header .content img{
+        width: 80%;
+    }
+
+}
+
+
+@media (max-width:600px){
+        .description .content .right img{
+        width: 100%;
+    }
+    .w-100{
+        max-height: 250px;
+    }
+    .navbar-dark .navbar-nav .nav-link{
+        margin-top: -50px;
+        text-align: end;
+    }
+    .nav .content .right a{
+        font-size: 12px;
+    }
+}
+
+
+
+
+/*                          <li><a class="dropdown-item" href="#description">المواصفات</a></li>
+                    <li><a class="dropdown-item" href="#features">المميزات</a></li>
+                    <li><a class="dropdown-item" href="#projects">صور المطابخ</a></li> */
